@@ -50,7 +50,7 @@ Partial Class Loading
         '
         'Button_1
         '
-        Me.Button_1.Location = New System.Drawing.Point(37, 38)
+        Me.Button_1.Location = New System.Drawing.Point(224, 40)
         Me.Button_1.Name = "Button_1"
         Me.Button_1.Size = New System.Drawing.Size(75, 23)
         Me.Button_1.TabIndex = 2
