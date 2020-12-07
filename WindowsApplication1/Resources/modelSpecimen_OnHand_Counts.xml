@@ -1,0 +1,314 @@
+﻿<DataModel name="modelSpecimen_OnHand_Counts" formatVersion="13" modelVersion="2" defQuery="" id="6ae7bdb1-b0a4-481e-91d7-9930a3364308">
+  <Description />
+  <CustomInfo />
+  <DMEOptions>
+    <listBoxTablesWidth>279</listBoxTablesWidth>
+    <FormWidth>880</FormWidth>
+    <FormHeight>577</FormHeight>
+  </DMEOptions>
+  <DBParams>
+    <SqlDialect>MS SQL</SqlDialect>
+    <ConnectionString>Data Source=BIG-BERTHA;Initial Catalog=Warehouse;Persist Security Info=True;User ID=arnesj01;Password=SaVsWt20$$</ConnectionString>
+    <LoginPrompt>False</LoginPrompt>
+    <GateClass>Korzh.EasyQuery.DataGates.SqlClientGate</GateClass>
+  </DBParams>
+  <Tables>
+    <Table class="db" alias="viewSpecimen_AliquotCounts" schema="dbo" db="" dsgnLayout="" priority="1000" name="viewSpecimen_AliquotCounts" hints="" quote="False" />
+  </Tables>
+  <Links />
+  <Editors>
+    <Editor id="_DTE" type="EDIT" resType="String" defValue="" />
+    <Editor id="_DPDE" type="DATETIME" resType="Unknown" subType="Date" />
+    <Editor id="_DPTE" type="DATETIME" resType="Unknown" subType="Time" />
+  </Editors>
+  <Operators>
+    <Operator id="Equal" caption="is equal to" expr="{expr1} = {expr2}" format="{expr1} [[is equal to]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotEqual" caption="is not equal to" expr="{expr1} &lt;&gt; {expr2}" format="{expr1} [[is not equal to]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="LessThan" caption="is less than" expr="{expr1} &lt; {expr2}" format="{expr1} [[is less than]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="LessOrEqual" caption="is less than or equal to" expr="{expr1} &lt;= {expr2}" format="{expr1} [[is less than or equal to]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="GreaterThan" caption="is greater than" expr="{expr1} &gt; {expr2}" format="{expr1} [[is greater than]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="GreaterOrEqual" caption="is greater than or equal to" expr="{expr1} &gt;= {expr2}" format="{expr1} [[is greater than or equal to]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="IsNull" caption="is null" expr="{expr1} IS NULL" format="{expr1} [[is null]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="IsNotNull" caption="is not null" expr="{expr1} IS NOT NULL" format="{expr1} [[is not null]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="IsTrue" caption="is true" expr="{expr1} = ${true}" format="{expr1} [[is true]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Boolean operators" cond="False">
+      <Types>Bool</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotTrue" caption="is not true" expr="(({expr1} &lt;&gt; ${true}) OR ({expr1} IS NULL))" format="{expr1} [[is not true]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Boolean operators" cond="False">
+      <Types>Bool</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="InList" caption="is in list" expr="{expr1} in ({expr2})" format="{expr1} [[is in list]] {expr2}" constFmt="{const}" kind="List" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotInList" caption="is not in list" expr="NOT ({expr1} in ({expr2}))" format="{expr1} [[is not in list]] {expr2}" constFmt="{const}" kind="List" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="Between" caption="is between" expr="{expr1} BETWEEN {expr2} AND {expr3}" format="{expr1} [[is between]] {expr2} and {expr3}" constFmt="{const}" kind="Scalar" isRange="True" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotBetween" caption="is not between" expr="NOT ({expr1} BETWEEN {expr2} AND {expr3})" format="{expr1} [[is not between]] {expr2} and {expr3}" constFmt="{const}" kind="Scalar" isRange="True" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="StartsWith" caption="starts with" expr="{expr1} LIKE {expr2}" format="{expr1} [[starts with]] {expr2}" constFmt="{const}{ws}" kind="Scalar" caseIns="False" editor="_DTE" group="String operators" cond="False">
+      <Types>String,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotStartsWith" caption="does not start with" expr="NOT ({expr1} LIKE {expr2})" format="{expr1} [[does not start with]] {expr2}" constFmt="{const}{ws}" kind="Scalar" caseIns="False" editor="_DTE" group="String operators" cond="False">
+      <Types>String,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="Contains" caption="contains" expr="{expr1} LIKE {expr2}" format="{expr1} [[contains]] {expr2}" constFmt="{ws}{const}{ws}" kind="Scalar" caseIns="False" editor="_DTE" group="String operators" cond="False">
+      <Types>String,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotContains" caption="does not contain" expr="NOT ({expr1} LIKE {expr2})" format="{expr1} [[does not contain]] {expr2}" constFmt="{ws}{const}{ws}" kind="Scalar" caseIns="False" editor="_DTE" group="String operators" cond="False">
+      <Types>String,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="InSubQuery" caption="in sub query" expr="{expr1} IN ({expr2})" format="{expr1} [[in sub query]] {expr2}" constFmt="{const}" kind="Query" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="NotInSubQuery" caption="not in sub query" expr="NOT ({expr1} IN ({expr2}))" format="{expr1} [[is not in sub query]] {expr2}" constFmt="{const}" kind="Query" caseIns="False" group="Common operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateWithinToday" caption="today" expr="${{Today}} &lt;= {expr1} AND {expr1} &lt; ${{Tomorrow}}" format="{expr1} [[within today]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateWithinThisWeek" caption="this week" expr="${{FirstDayOfWeek}} &lt;= {expr1} AND {expr1} &lt; ${{FirstDayOfNextWeek}}" format="{expr1} [[within this week]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateWithinThisMonth" caption="this month" expr="${{FirstDayOfMonth}} &lt;= {expr1} AND {expr1} &lt; ${{FirstDayOfNextMonth}}" format="{expr1} [[within this month]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateWithinPrevMonth" caption="previous month" expr="${{FirstDayOfPrevMonth}} &lt;= {expr1} AND {expr1} &lt; ${{FirstDayOfMonth}}" format="{expr1} [[within previous month]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateWithinThisYear" caption="this year" expr="${{FirstDayOfYear}} &lt;= {expr1} AND {expr1} &lt; ${{FirstDayOfNextYear}}" format="{expr1} [[within this year]]" constFmt="{const}" kind="Scalar" caseIns="False" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+    <Operator id="DateBeforePrecise" caption="before" expr="{expr1} &lt; {expr2}" format="{expr1} [[before]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" editor="_DPDE" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" defDefValue="${Today}" />
+    </Operator>
+    <Operator id="DateAfterPrecise" caption="after" expr="{expr1} &gt;= {expr2}" format="{expr1} [[after]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" editor="_DPDE" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" defDefValue="${FirstDayOfMonth}" />
+    </Operator>
+    <Operator id="DatePeriodPrecise" caption="custom period" expr="{expr1} BETWEEN {expr2} AND {expr3}" format="{expr1} [[within]] {expr2} and {expr3}" constFmt="{const}" kind="Scalar" isRange="True" caseIns="False" editor="_DPDE" group="Date/time operators" cond="False">
+      <Types>Date,DateTime</Types>
+      <Operands defType="Unknown" defDefValue="${Today}">
+        <Operand type="Unknown" kind="Scalar" defVal="${FirstDayOfMonth}" />
+        <Operand type="Unknown" kind="Scalar" defVal="${Today}" />
+      </Operands>
+    </Operator>
+    <Operator id="TimeBeforePrecise" caption="before" expr="{expr1} &lt; {expr2}" format="{expr1} [[before]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" editor="_DPTE" group="Date/time operators" cond="False">
+      <Types>Time</Types>
+      <Operands defType="Unknown" defDefValue="${Now}" />
+    </Operator>
+    <Operator id="TimeAfterPrecise" caption="after" expr="{expr1} &gt;= {expr2}" format="{expr1} [[after]] {expr2}" constFmt="{const}" kind="Scalar" caseIns="False" editor="_DPTE" group="Date/time operators" cond="False">
+      <Types>Time</Types>
+      <Operands defType="Unknown" defDefValue="${HourStart}" />
+    </Operator>
+    <Operator id="TimePeriodPrecise" caption="between" expr="{expr1} BETWEEN {expr2} AND {expr3}" format="{expr1} [[between]] {expr2} and {expr3}" constFmt="{const}" kind="Scalar" isRange="True" caseIns="False" editor="_DPTE" group="Date/time operators" cond="False">
+      <Types>Time</Types>
+      <Operands defType="Unknown" defDefValue="${Today}">
+        <Operand type="Unknown" kind="Scalar" defVal="${HourStart}" />
+        <Operand type="Unknown" kind="Scalar" defVal="${Now}" />
+      </Operands>
+    </Operator>
+    <Operator id="MaximumOfAttr" caption="is maximum of" expr="{expr1} = (SELECT MAX({expr2.field}) FROM {expr2.table})" format="{expr1} [[is equal to maximum of]] {expr2}" constFmt="{const}" kind="Attribute" caseIns="False" group="Other operators" cond="False">
+      <Types>String,Byte,Word,Int,Int64,Bool,Float,Currency,BCD,Autoinc,Memo,FixedChar,Date,DateTime,Time</Types>
+      <Operands defType="Unknown" />
+    </Operator>
+  </Operators>
+  <Entities maxId="0">
+    <Entity id="" name="viewSpecimen_AliquotCounts" UIC="True" UIR="True" UIS="True">
+      <Attr id="viewSpecimen_AliquotCounts.BB" kind="Data" expr="BB" caption="BB" type="Float" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM22" kind="Data" expr="BM22" caption="BM22" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM21" kind="Data" expr="BM21" caption="BM21" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM20" kind="Data" expr="BM20" caption="BM20" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM36" kind="Data" expr="BM36" caption="BM36" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM46" kind="Data" expr="BM46" caption="BM46" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM9" kind="Data" expr="BM9" caption="BM9" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM7" kind="Data" expr="BM7" caption="BM7" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM44" kind="Data" expr="BM44" caption="BM44" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM24" kind="Data" expr="BM24" caption="BM24" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM32" kind="Data" expr="BM32" caption="BM32" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM23" kind="Data" expr="BM23" caption="BM23" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM31" kind="Data" expr="BM31" caption="BM31" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM10" kind="Data" expr="BM10" caption="BM10" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM17" kind="Data" expr="BM17" caption="BM17" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM1" kind="Data" expr="BM1" caption="BM1" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM2" kind="Data" expr="BM2" caption="BM2" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM3" kind="Data" expr="BM3" caption="BM3" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM4" kind="Data" expr="BM4" caption="BM4" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM5" kind="Data" expr="BM5" caption="BM5" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM6" kind="Data" expr="BM6" caption="BM6" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM8" kind="Data" expr="BM8" caption="BM8" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM11" kind="Data" expr="BM11" caption="BM11" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM12" kind="Data" expr="BM12" caption="BM12" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM13" kind="Data" expr="BM13" caption="BM13" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM14" kind="Data" expr="BM14" caption="BM14" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM15" kind="Data" expr="BM15" caption="BM15" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM16" kind="Data" expr="BM16" caption="BM16" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM18" kind="Data" expr="BM18" caption="BM18" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM19" kind="Data" expr="BM19" caption="BM19" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM25" kind="Data" expr="BM25" caption="BM25" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM26" kind="Data" expr="BM26" caption="BM26" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM27" kind="Data" expr="BM27" caption="BM27" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM28" kind="Data" expr="BM28" caption="BM28" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM29" kind="Data" expr="BM29" caption="BM29" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM30" kind="Data" expr="BM30" caption="BM30" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM33" kind="Data" expr="BM33" caption="BM33" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM34" kind="Data" expr="BM34" caption="BM34" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM35" kind="Data" expr="BM35" caption="BM35" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM37" kind="Data" expr="BM37" caption="BM37" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM38" kind="Data" expr="BM38" caption="BM38" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM39" kind="Data" expr="BM39" caption="BM39" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM40" kind="Data" expr="BM40" caption="BM40" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM41" kind="Data" expr="BM41" caption="BM41" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM42" kind="Data" expr="BM42" caption="BM42" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM43" kind="Data" expr="BM43" caption="BM43" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.BM45" kind="Data" expr="BM45" caption="BM45" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.DNA" kind="Data" expr="DNA" caption="DNA" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.CSF" kind="Data" expr="CSF" caption="CSF" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+      <Attr id="viewSpecimen_AliquotCounts.{Temporal Muscle}" kind="Data" expr="Temporal Muscle" caption="Temporal Muscle" type="Int" size="0" UIC="True" UIR="True" UIS="True" customFunc="" quote="False" UAL="True" aggr="False" tables="viewSpecimen_AliquotCounts">
+        <Operators>Equal,Between,LessThan,LessOrEqual,GreaterThan,GreaterOrEqual,InList,NotEqual,NotBetween,NotInList,MaximumOfAttr,InSubQuery,NotInSubQuery,IsNull,IsNotNull</Operators>
+      </Attr>
+    </Entity>
+  </Entities>
+</DataModel>

@@ -1,0 +1,1712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB7B72D4-CAD8-47CE-9DFC-ADDDAD20407E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DataWarehouse.My.MyApplication</StartupObject>
+    <RootNamespace>DataWarehouse</RootNamespace>
+    <AssemblyName>DataWarehouse</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DataWarehouse.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DataWarehouse.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DataWarehouse.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DataWarehouse.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Korzh.EasyQuery.Db.NET40, Version=3.7.3.28, Culture=neutral, PublicKeyToken=fb0d7039c576491c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Korzh.EasyQuery.Db.NET40.dll</HintPath>
+    </Reference>
+    <Reference Include="Korzh.EasyQuery.NET40, Version=3.7.3.28, Culture=neutral, PublicKeyToken=fb0d7039c576491c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Korzh.EasyQuery.NET40.dll</HintPath>
+    </Reference>
+    <Reference Include="Korzh.EasyQuery.WinControls.NET40, Version=3.7.3.28, Culture=neutral, PublicKeyToken=fb0d7039c576491c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Korzh.EasyQuery.WinControls.NET40.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v12.0\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.VisualStudio.15.0">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\System.VisualStudio.15.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="com.itextpdf.text.pdf" />
+    <Import Include="com.itextpdf.text.pdf.languages" />
+    <Import Include="com.itextpdf.text.pdf.security" />
+    <Import Include="DataWarehouse" />
+    <Import Include="DataWarehouse.My" />
+    <Import Include="DataWarehouse.My.Resources" />
+    <Import Include="iTextSharp.awt.geom" />
+    <Import Include="iTextSharp.testutils" />
+    <Import Include="iTextSharp.text" />
+    <Import Include="iTextSharp.text.api" />
+    <Import Include="iTextSharp.text.error_messages" />
+    <Import Include="iTextSharp.text.exceptions" />
+    <Import Include="iTextSharp.text.factories" />
+    <Import Include="iTextSharp.text.html" />
+    <Import Include="iTextSharp.text.html.simpleparser" />
+    <Import Include="iTextSharp.text.io" />
+    <Import Include="iTextSharp.text.log" />
+    <Import Include="iTextSharp.text.pdf" />
+    <Import Include="iTextSharp.text.pdf.codec" />
+    <Import Include="iTextSharp.text.pdf.codec.wmf" />
+    <Import Include="iTextSharp.text.pdf.collection" />
+    <Import Include="iTextSharp.text.pdf.crypto" />
+    <Import Include="iTextSharp.text.pdf.draw" />
+    <Import Include="iTextSharp.text.pdf.events" />
+    <Import Include="iTextSharp.text.pdf.fonts.cmaps" />
+    <Import Include="iTextSharp.text.pdf.hyphenation" />
+    <Import Include="iTextSharp.text.pdf.interfaces" />
+    <Import Include="iTextSharp.text.pdf.intern" />
+    <Import Include="iTextSharp.text.pdf.languages" />
+    <Import Include="iTextSharp.text.pdf.parser" />
+    <Import Include="iTextSharp.text.pdf.parser.clipper" />
+    <Import Include="iTextSharp.text.pdf.qrcode" />
+    <Import Include="iTextSharp.text.pdf.security" />
+    <Import Include="iTextSharp.text.xml" />
+    <Import Include="iTextSharp.text.xml.simpleparser" />
+    <Import Include="iTextSharp.text.xml.simpleparser.handler" />
+    <Import Include="iTextSharp.text.xml.xmp" />
+    <Import Include="iTextSharp.xmp" />
+    <Import Include="iTextSharp.xmp.impl" />
+    <Import Include="iTextSharp.xmp.impl.xpath" />
+    <Import Include="iTextSharp.xmp.options" />
+    <Import Include="iTextSharp.xmp.properties" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Text" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Button_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBox_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Database.vb" />
+    <Compile Include="ExceptionHandler.vb" />
+    <Compile Include="Exports.vb" />
+    <Compile Include="WH_Imports.vb" />
+    <Compile Include="PU_AddNewRole.Designer.vb">
+      <DependentUpon>PU_AddNewRole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddNewRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_ConvertICD9To10.Designer.vb">
+      <DependentUpon>PU_ConvertICD9To10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_ConvertICD9To10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_EditRoles.Designer.vb">
+      <DependentUpon>PU_EditRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_EditRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddPermissions.Designer.vb">
+      <DependentUpon>PU_AddPermissions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddPermissions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_EditUserInfo.Designer.vb">
+      <DependentUpon>PU_EditUserInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_EditUserInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoshTest.Designer.vb">
+      <DependentUpon>JoshTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JoshTest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PU_Covid_Acceptance.Designer.vb">
+      <DependentUpon>PU_Covid_Acceptance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Covid_Acceptance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Alz_Acceptance.Designer.vb">
+      <DependentUpon>PU_Alz_Acceptance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Alz_Acceptance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_FormPermissions.Designer.vb">
+      <DependentUpon>PU_FormPermissions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_FormPermissions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PurchaseRequest.Designer.vb">
+      <DependentUpon>PU_PurchaseRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PurchaseRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PurchaseRequestAddSourceOrCategory.Designer.vb">
+      <DependentUpon>PU_PurchaseRequestAddSourceOrCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PurchaseRequestAddSourceOrCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PurchaseRequestItem.Designer.vb">
+      <DependentUpon>PU_PurchaseRequestItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PurchaseRequestItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Specimen_Consume.Designer.vb">
+      <DependentUpon>PU_Specimen_Consume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Specimen_Consume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Specimen_Edit.Designer.vb">
+      <DependentUpon>PU_Specimen_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Specimen_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddBlankDoc.Designer.vb">
+      <DependentUpon>PU_AddBlankDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddBlankDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddMedRecordScan.Designer.vb">
+      <DependentUpon>PU_AddMedRecordScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddMedRecordScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddMiscSubjectFile.Designer.vb">
+      <DependentUpon>PU_AddMiscSubjectFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddMiscSubjectFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_BarcodeGenerator.Designer.vb">
+      <DependentUpon>PU_BarcodeGenerator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_BarcodeGenerator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_CERAD_Stains.Designer.vb">
+      <DependentUpon>PU_CERAD_Stains.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_CERAD_Stains.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Labs_SuggestNew.Designer.vb">
+      <DependentUpon>PU_Labs_SuggestNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Labs_SuggestNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_MedicationSuggestNew.Designer.vb">
+      <DependentUpon>PU_MedicationSuggestNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_MedicationSuggestNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_NeuropathRequest.Designer.vb">
+      <DependentUpon>PU_NeuropathRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_NeuropathRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_NoKReconcile.Designer.vb">
+      <DependentUpon>PU_NoKReconcile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_NoKReconcile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_NPSumExistingDxSelect.Designer.vb">
+      <DependentUpon>PU_NPSumExistingDxSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_NPSumExistingDxSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PostLockChangeNote.Designer.vb">
+      <DependentUpon>PU_PostLockChangeNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PostLockChangeNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PreEnrollmentDetail.Designer.vb">
+      <DependentUpon>PU_PreEnrollmentDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PreEnrollmentDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_ReleaseOfMedicalRecords.Designer.vb">
+      <DependentUpon>PU_ReleaseOfMedicalRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_ReleaseOfMedicalRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Specimen_AddNewSpecimen.Designer.vb">
+      <DependentUpon>PU_Specimen_AddNewSpecimen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Specimen_AddNewSpecimen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Specimen_MoveBox.Designer.vb">
+      <DependentUpon>PU_Specimen_MoveBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Specimen_MoveBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_TissueRequest_SelectBrainRegion.Designer.vb">
+      <DependentUpon>PU_TissueRequest_SelectBrainRegion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_TissueRequest_SelectBrainRegion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_TissueRequest_SelectPreparation.Designer.vb">
+      <DependentUpon>PU_TissueRequest_SelectPreparation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_TissueRequest_SelectPreparation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectFiles1to1.vb" />
+    <Compile Include="ComboBox_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dgvSingleRow.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Head_SubjectSelect.Designer.vb">
+      <DependentUpon>Head_SubjectSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Head_SubjectSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFormMethods.vb" />
+    <Compile Include="Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddDx.Designer.vb">
+      <DependentUpon>PU_AddDx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddDx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_AddMedication.Designer.vb">
+      <DependentUpon>PU_AddMedication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_AddMedication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_ExistingDxSelect.Designer.vb">
+      <DependentUpon>PU_ExistingDxSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_ExistingDxSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Labs_Add.Designer.vb">
+      <DependentUpon>PU_Labs_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Labs_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_NP_FullClinicalNeuropath.Designer.vb">
+      <DependentUpon>PU_NP_FullClinicalNeuropath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_NP_FullClinicalNeuropath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_NP_SummaryOfFindings.Designer.vb">
+      <DependentUpon>PU_NP_SummaryOfFindings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_NP_SummaryOfFindings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_PHIPassword.Designer.vb">
+      <DependentUpon>PU_PHIPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_PHIPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_SaveWork.Designer.vb">
+      <DependentUpon>PU_SaveWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_SaveWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_SliceViewer.Designer.vb">
+      <DependentUpon>PU_SliceViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_SliceViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_SmokingHistory.Designer.vb">
+      <DependentUpon>PU_SmokingHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_SmokingHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Subject_RelWithSimDx.Designer.vb">
+      <DependentUpon>PU_Subject_RelWithSimDx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Subject_RelWithSimDx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_SuggestNewInstitution.Designer.vb">
+      <DependentUpon>PU_SuggestNewInstitution.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_SuggestNewInstitution.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_TissueProjectsWOTaskers.Designer.vb">
+      <DependentUpon>PU_TissueProjectsWOTaskers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_TissueProjectsWOTaskers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_TissueRequestAssociatedTissue.Designer.vb">
+      <DependentUpon>PU_TissueRequestAssociatedTissue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_TissueRequestAssociatedTissue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Vitals.Designer.vb">
+      <DependentUpon>PU_Vitals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Vitals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_TaskerProgressReport.Designer.vb">
+      <DependentUpon>PU_TaskerProgressReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_TaskerProgressReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SubjectFiles1toMany.vb" />
+    <Compile Include="SystemFiles1to1.vb" />
+    <Compile Include="SystemFiles1toMany.vb" />
+    <Compile Include="TextBoxIntLess40.Designer.vb">
+      <DependentUpon>TextBoxIntLess40.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxIntLess40.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User.vb" />
+    <Compile Include="WA_AutopsyBlockSampling.Designer.vb">
+      <DependentUpon>WA_AutopsyBlockSampling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_AutopsyBlockSampling.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_CERAD_ARTAG.Designer.vb">
+      <DependentUpon>WA_CERAD_ARTAG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERAD_ARTAG.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_FormPermissions.Designer.vb">
+      <DependentUpon>WA_FormPermissions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_FormPermissions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_NP_BrainRegionMap.Designer.vb">
+      <DependentUpon>WA_NP_BrainRegionMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NP_BrainRegionMap.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_UserManagement.Designer.vb">
+      <DependentUpon>WA_UserManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_UserManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_AutopsyFaceSheet.Designer.vb">
+      <DependentUpon>WA_AutopsyFaceSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_AutopsyFaceSheet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_BlankForms.Designer.vb">
+      <DependentUpon>WA_BlankForms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_BlankForms.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_CERADG_Screen.Designer.vb">
+      <DependentUpon>WA_CERADG_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADG_Screen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_CERADIJ.Designer.vb">
+      <DependentUpon>WA_CERADIJ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADIJ.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_CERAD_Addendum.Designer.vb">
+      <DependentUpon>WA_CERAD_Addendum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERAD_Addendum.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_CERAD_Header.Designer.vb">
+      <DependentUpon>WA_CERAD_Header.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERAD_Header.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_ClinicalSummary.Designer.vb">
+      <DependentUpon>WA_ClinicalSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ClinicalSummary.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_DNA_RNA_Volume.Designer.vb">
+      <DependentUpon>WA_DNA_RNA_Volume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_DNA_RNA_Volume.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_DonationReferrals.Designer.vb">
+      <DependentUpon>WA_DonationReferrals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_DonationReferrals.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_ExistingRecordsReport.Designer.vb">
+      <DependentUpon>WA_ExistingRecordsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ExistingRecordsReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_ExistingSubjectRecords.Designer.vb">
+      <DependentUpon>WA_ExistingSubjectRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ExistingSubjectRecords.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_External_Reporting_Exports.Designer.vb">
+      <DependentUpon>WA_External_Reporting_Exports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_External_Reporting_Exports.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_Institutions.Designer.vb">
+      <DependentUpon>WA_Institutions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Institutions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_InstitutionSuggestions.Designer.vb">
+      <DependentUpon>WA_InstitutionSuggestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_InstitutionSuggestions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_MicroscopicImages.Designer.vb">
+      <DependentUpon>WA_MicroscopicImages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_MicroscopicImages.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_DonationReferralDetail.Designer.vb">
+      <DependentUpon>WA_DonationReferralDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_DonationReferralDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_MiscSubjectFiles.Designer.vb">
+      <DependentUpon>WA_MiscSubjectFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_MiscSubjectFiles.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_MRI_Tracking.Designer.vb">
+      <DependentUpon>WA_MRI_Tracking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_MRI_Tracking.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_NBB_QTR_Admin.Designer.vb">
+      <DependentUpon>WA_NBB_QTR_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NBB_QTR_Admin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_NeuropathRequests.Designer.vb">
+      <DependentUpon>WA_NeuropathRequests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NeuropathRequests.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_Neuropath_Requests_Report.Designer.vb">
+      <DependentUpon>WA_Neuropath_Requests_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Neuropath_Requests_Report.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_NoK.Designer.vb">
+      <DependentUpon>WA_NoK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NoK.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR.Designer.vb">
+      <DependentUpon>WA_PMCR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_3D1.Designer.vb">
+      <DependentUpon>WA_PMCR_3D1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_3D1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_3D2.Designer.vb">
+      <DependentUpon>WA_PMCR_3D2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_3D2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_3D3.Designer.vb">
+      <DependentUpon>WA_PMCR_3D3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_3D3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_3D4.Designer.vb">
+      <DependentUpon>WA_PMCR_3D4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_3D4.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_AD8.Designer.vb">
+      <DependentUpon>WA_PMCR_AD8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_AD8.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_CDR.Designer.vb">
+      <DependentUpon>WA_PMCR_CDR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_CDR.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_CDR_INF.Designer.vb">
+      <DependentUpon>WA_PMCR_CDR_INF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_CDR_INF.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_CVD.Designer.vb">
+      <DependentUpon>WA_PMCR_CVD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_CVD.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead1.Designer.vb">
+      <DependentUpon>WA_PMCR_Dead1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead2.Designer.vb">
+      <DependentUpon>WA_PMCR_Dead2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead3.Designer.vb">
+      <DependentUpon>WA_PMCR_Dead3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead4.Designer.vb">
+      <DependentUpon>WA_PMCR_Dead4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dead4.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dementia1.Designer.vb">
+      <DependentUpon>WA_PMCR_Dementia1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dementia1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Dementia2.Designer.vb">
+      <DependentUpon>WA_PMCR_Dementia2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Dementia2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Demographics.Designer.vb">
+      <DependentUpon>WA_PMCR_Demographics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Demographics.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Depression.Designer.vb">
+      <DependentUpon>WA_PMCR_Depression.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Depression.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Diagnoses.Designer.vb">
+      <DependentUpon>WA_PMCR_Diagnoses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Diagnoses.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Hachinski.Designer.vb">
+      <DependentUpon>WA_PMCR_Hachinski.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Hachinski.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Header.Designer.vb">
+      <DependentUpon>WA_PMCR_Header.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Header.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Hypoxia.Designer.vb">
+      <DependentUpon>WA_PMCR_Hypoxia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Hypoxia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Informants.Designer.vb">
+      <DependentUpon>WA_PMCR_Informants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Informants.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_MCIRS.Designer.vb">
+      <DependentUpon>WA_PMCR_MCIRS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_MCIRS.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Medications.Designer.vb">
+      <DependentUpon>WA_PMCR_Medications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Medications.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Parkinsonism.Designer.vb">
+      <DependentUpon>WA_PMCR_Parkinsonism.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Parkinsonism.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_NP_Progress.Designer.vb">
+      <DependentUpon>WA_NP_Progress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NP_Progress.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PMCR_Vitals_And_Labs.Designer.vb">
+      <DependentUpon>WA_PMCR_Vitals_And_Labs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PMCR_Vitals_And_Labs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PreEnrollments.Designer.vb">
+      <DependentUpon>WA_PreEnrollments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PreEnrollments.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PreEnrollments_Detail.Designer.vb">
+      <DependentUpon>WA_PreEnrollments_Detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PreEnrollments_Detail.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PreEnrollment_Anniversary.Designer.vb">
+      <DependentUpon>WA_PreEnrollment_Anniversary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PreEnrollment_Anniversary.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_PurchaseRequests.Designer.vb">
+      <DependentUpon>WA_PurchaseRequests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PurchaseRequests.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_ReportsSplash.Designer.vb">
+      <DependentUpon>WA_ReportsSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ReportsSplash.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_ShortInitialSummary.Designer.vb">
+      <DependentUpon>WA_ShortInitialSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ShortInitialSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_SlideScanBarcodeFile.Designer.vb">
+      <DependentUpon>WA_SlideScanBarcodeFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_SlideScanBarcodeFile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_SpecimenOnHand.Designer.vb">
+      <DependentUpon>WA_SpecimenOnHand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_SpecimenOnHand.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_SpecimenOnHand_Counts.Designer.vb">
+      <DependentUpon>WA_SpecimenOnHand_Counts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_SpecimenOnHand_Counts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_Specimen_DNA.Designer.vb">
+      <DependentUpon>WA_Specimen_DNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Specimen_DNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_Specimen_RNA.Designer.vb">
+      <DependentUpon>WA_Specimen_RNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Specimen_RNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_Demographics.Designer.vb">
+      <DependentUpon>WA_Demographics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Demographics.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_TangleCounts.Designer.vb">
+      <DependentUpon>WA_TangleCounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TangleCounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_ConsenusDx.Designer.vb">
+      <DependentUpon>WA_ConsenusDx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_ConsenusDx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_NPSummary.Designer.vb">
+      <DependentUpon>WA_NPSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_NPSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_GenderHistoryAdd.Designer.vb">
+      <DependentUpon>PU_GenderHistoryAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_GenderHistoryAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PU_Institutionalizations.Designer.vb">
+      <DependentUpon>PU_Institutionalizations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PU_Institutionalizations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxDateAny.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxDateMMYYYYPast.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxDatePast.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxInteger.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxNumeric.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxTime.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WarehouseShell.Designer.vb">
+      <DependentUpon>WarehouseShell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseShell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WA_CERADB.Designer.vb">
+      <DependentUpon>WA_CERADB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADC.Designer.vb">
+      <DependentUpon>WA_CERADC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADD.Designer.vb">
+      <DependentUpon>WA_CERADD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADE.Designer.vb">
+      <DependentUpon>WA_CERADE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADF.Designer.vb">
+      <DependentUpon>WA_CERADF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADG1.Designer.vb">
+      <DependentUpon>WA_CERADG1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADG1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADG2.Designer.vb">
+      <DependentUpon>WA_CERADG2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADG2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_CERADH.Designer.vb">
+      <DependentUpon>WA_CERADH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_CERADH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_AutopsyDissectionMap.Designer.vb">
+      <DependentUpon>WA_AutopsyDissectionMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_AutopsyDissectionMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_PlaqueCounts.Designer.vb">
+      <DependentUpon>WA_PlaqueCounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_PlaqueCounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_Institutionalizations.Designer.vb">
+      <DependentUpon>WA_Institutionalizations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Institutionalizations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_SubjectSelect.Designer.vb">
+      <DependentUpon>WA_SubjectSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_SubjectSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_TissueDistributions.Designer.vb">
+      <DependentUpon>WA_TissueDistributions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueDistributions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_TissueDistributions_Details.Designer.vb">
+      <DependentUpon>WA_TissueDistributions_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueDistributions_Details.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_TissueInProcess.Designer.vb">
+      <DependentUpon>WA_TissueInProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueInProcess.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_TissueSplash.Designer.vb">
+      <DependentUpon>WA_TissueSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_TissueRequest.Designer.vb">
+      <DependentUpon>WA_TissueRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueRequest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WA_TissueTasker.Designer.vb">
+      <DependentUpon>WA_TissueTasker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueTasker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_TissueTaskerReport.Designer.vb">
+      <DependentUpon>WA_TissueTaskerReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_TissueTaskerReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WA_Welcome.Designer.vb">
+      <DependentUpon>WA_Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WA_Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PU_AddNewRole.resx">
+      <DependentUpon>PU_AddNewRole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddPermissions.resx">
+      <DependentUpon>PU_AddPermissions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_ConvertICD9To10.resx">
+      <DependentUpon>PU_ConvertICD9To10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_EditRoles.resx">
+      <DependentUpon>PU_EditRoles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_EditUserInfo.resx">
+      <DependentUpon>PU_EditUserInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoshTest.resx">
+      <DependentUpon>JoshTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Alz_Acceptance.resx">
+      <DependentUpon>PU_Alz_Acceptance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Covid_Acceptance.resx">
+      <DependentUpon>PU_Covid_Acceptance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_FormPermissions.resx">
+      <DependentUpon>PU_FormPermissions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PurchaseRequest.resx">
+      <DependentUpon>PU_PurchaseRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PurchaseRequestAddSourceOrCategory.resx">
+      <DependentUpon>PU_PurchaseRequestAddSourceOrCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PurchaseRequestItem.resx">
+      <DependentUpon>PU_PurchaseRequestItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Specimen_Consume.resx">
+      <DependentUpon>PU_Specimen_Consume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Specimen_Edit.resx">
+      <DependentUpon>PU_Specimen_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head_SubjectSelect.resx">
+      <DependentUpon>Head_SubjectSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddBlankDoc.resx">
+      <DependentUpon>PU_AddBlankDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddDx.resx">
+      <DependentUpon>PU_AddDx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddMedication.resx">
+      <DependentUpon>PU_AddMedication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddMedRecordScan.resx">
+      <DependentUpon>PU_AddMedRecordScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_AddMiscSubjectFile.resx">
+      <DependentUpon>PU_AddMiscSubjectFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_BarcodeGenerator.resx">
+      <DependentUpon>PU_BarcodeGenerator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_CERAD_Stains.resx">
+      <DependentUpon>PU_CERAD_Stains.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_ExistingDxSelect.resx">
+      <DependentUpon>PU_ExistingDxSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Labs_Add.resx">
+      <DependentUpon>PU_Labs_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Labs_SuggestNew.resx">
+      <DependentUpon>PU_Labs_SuggestNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_MedicationSuggestNew.resx">
+      <DependentUpon>PU_MedicationSuggestNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_NeuropathRequest.resx">
+      <DependentUpon>PU_NeuropathRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_NoKReconcile.resx">
+      <DependentUpon>PU_NoKReconcile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_NPSumExistingDxSelect.resx">
+      <DependentUpon>PU_NPSumExistingDxSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_NP_FullClinicalNeuropath.resx">
+      <DependentUpon>PU_NP_FullClinicalNeuropath.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_NP_SummaryOfFindings.resx">
+      <DependentUpon>PU_NP_SummaryOfFindings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PHIPassword.resx">
+      <DependentUpon>PU_PHIPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PostLockChangeNote.resx">
+      <DependentUpon>PU_PostLockChangeNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_PreEnrollmentDetail.resx">
+      <DependentUpon>PU_PreEnrollmentDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_ReleaseOfMedicalRecords.resx">
+      <DependentUpon>PU_ReleaseOfMedicalRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_SaveWork.resx">
+      <DependentUpon>PU_SaveWork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_SliceViewer.resx">
+      <DependentUpon>PU_SliceViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_SmokingHistory.resx">
+      <DependentUpon>PU_SmokingHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Specimen_AddNewSpecimen.resx">
+      <DependentUpon>PU_Specimen_AddNewSpecimen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Specimen_MoveBox.resx">
+      <DependentUpon>PU_Specimen_MoveBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Subject_RelWithSimDx.resx">
+      <DependentUpon>PU_Subject_RelWithSimDx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_SuggestNewInstitution.resx">
+      <DependentUpon>PU_SuggestNewInstitution.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_TissueProjectsWOTaskers.resx">
+      <DependentUpon>PU_TissueProjectsWOTaskers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_TissueRequestAssociatedTissue.resx">
+      <DependentUpon>PU_TissueRequestAssociatedTissue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_TissueRequest_SelectBrainRegion.resx">
+      <DependentUpon>PU_TissueRequest_SelectBrainRegion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_TissueRequest_SelectPreparation.resx">
+      <DependentUpon>PU_TissueRequest_SelectPreparation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Vitals.resx">
+      <DependentUpon>PU_Vitals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_TaskerProgressReport.resx">
+      <DependentUpon>PU_TaskerProgressReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_AutopsyBlockSampling.resx">
+      <DependentUpon>WA_AutopsyBlockSampling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERAD_ARTAG.resx">
+      <DependentUpon>WA_CERAD_ARTAG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_FormPermissions.resx">
+      <DependentUpon>WA_FormPermissions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NP_BrainRegionMap.resx">
+      <DependentUpon>WA_NP_BrainRegionMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_UserManagement.resx">
+      <DependentUpon>WA_UserManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_AutopsyFaceSheet.resx">
+      <DependentUpon>WA_AutopsyFaceSheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_BlankForms.resx">
+      <DependentUpon>WA_BlankForms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADG_Screen.resx">
+      <DependentUpon>WA_CERADG_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADIJ.resx">
+      <DependentUpon>WA_CERADIJ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERAD_Addendum.resx">
+      <DependentUpon>WA_CERAD_Addendum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERAD_Header.resx">
+      <DependentUpon>WA_CERAD_Header.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ClinicalSummary.resx">
+      <DependentUpon>WA_ClinicalSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_DNA_RNA_Volume.resx">
+      <DependentUpon>WA_DNA_RNA_Volume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_DonationReferrals.resx">
+      <DependentUpon>WA_DonationReferrals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ExistingRecordsReport.resx">
+      <DependentUpon>WA_ExistingRecordsReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ExistingSubjectRecords.resx">
+      <DependentUpon>WA_ExistingSubjectRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_External_Reporting_Exports.resx">
+      <DependentUpon>WA_External_Reporting_Exports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Institutions.resx">
+      <DependentUpon>WA_Institutions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_InstitutionSuggestions.resx">
+      <DependentUpon>WA_InstitutionSuggestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_MicroscopicImages.resx">
+      <DependentUpon>WA_MicroscopicImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_DonationReferralDetail.resx">
+      <DependentUpon>WA_DonationReferralDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_MiscSubjectFiles.resx">
+      <DependentUpon>WA_MiscSubjectFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_MRI_Tracking.resx">
+      <DependentUpon>WA_MRI_Tracking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NBB_QTR_Admin.resx">
+      <DependentUpon>WA_NBB_QTR_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NeuropathRequests.resx">
+      <DependentUpon>WA_NeuropathRequests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Neuropath_Requests_Report.resx">
+      <DependentUpon>WA_Neuropath_Requests_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NoK.resx">
+      <DependentUpon>WA_NoK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR.resx">
+      <DependentUpon>WA_PMCR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_3D1.resx">
+      <DependentUpon>WA_PMCR_3D1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_3D2.resx">
+      <DependentUpon>WA_PMCR_3D2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_3D3.resx">
+      <DependentUpon>WA_PMCR_3D3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_3D4.resx">
+      <DependentUpon>WA_PMCR_3D4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_AD8.resx">
+      <DependentUpon>WA_PMCR_AD8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_CDR.resx">
+      <DependentUpon>WA_PMCR_CDR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_CDR_INF.resx">
+      <DependentUpon>WA_PMCR_CDR_INF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_CVD.resx">
+      <DependentUpon>WA_PMCR_CVD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dead1.resx">
+      <DependentUpon>WA_PMCR_Dead1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dead2.resx">
+      <DependentUpon>WA_PMCR_Dead2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dead3.resx">
+      <DependentUpon>WA_PMCR_Dead3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dead4.resx">
+      <DependentUpon>WA_PMCR_Dead4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dementia1.resx">
+      <DependentUpon>WA_PMCR_Dementia1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Dementia2.resx">
+      <DependentUpon>WA_PMCR_Dementia2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Demographics.resx">
+      <DependentUpon>WA_PMCR_Demographics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Depression.resx">
+      <DependentUpon>WA_PMCR_Depression.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Diagnoses.resx">
+      <DependentUpon>WA_PMCR_Diagnoses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Hachinski.resx">
+      <DependentUpon>WA_PMCR_Hachinski.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Header.resx">
+      <DependentUpon>WA_PMCR_Header.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Hypoxia.resx">
+      <DependentUpon>WA_PMCR_Hypoxia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Informants.resx">
+      <DependentUpon>WA_PMCR_Informants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_MCIRS.resx">
+      <DependentUpon>WA_PMCR_MCIRS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Medications.resx">
+      <DependentUpon>WA_PMCR_Medications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Parkinsonism.resx">
+      <DependentUpon>WA_PMCR_Parkinsonism.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NP_Progress.resx">
+      <DependentUpon>WA_NP_Progress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PMCR_Vitals_And_Labs.resx">
+      <DependentUpon>WA_PMCR_Vitals_And_Labs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PreEnrollments.resx">
+      <DependentUpon>WA_PreEnrollments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PreEnrollments_Detail.resx">
+      <DependentUpon>WA_PreEnrollments_Detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PreEnrollment_Anniversary.resx">
+      <DependentUpon>WA_PreEnrollment_Anniversary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PurchaseRequests.resx">
+      <DependentUpon>WA_PurchaseRequests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ReportsSplash.resx">
+      <DependentUpon>WA_ReportsSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ShortInitialSummary.resx">
+      <DependentUpon>WA_ShortInitialSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_SlideScanBarcodeFile.resx">
+      <DependentUpon>WA_SlideScanBarcodeFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_SpecimenOnHand.resx">
+      <DependentUpon>WA_SpecimenOnHand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_SpecimenOnHand_Counts.resx">
+      <DependentUpon>WA_SpecimenOnHand_Counts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Specimen_DNA.resx">
+      <DependentUpon>WA_Specimen_DNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Specimen_RNA.resx">
+      <DependentUpon>WA_Specimen_RNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Demographics.resx">
+      <DependentUpon>WA_Demographics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TangleCounts.resx">
+      <DependentUpon>WA_TangleCounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_ConsenusDx.resx">
+      <DependentUpon>WA_ConsenusDx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_NPSummary.resx">
+      <DependentUpon>WA_NPSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_GenderHistoryAdd.resx">
+      <DependentUpon>PU_GenderHistoryAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PU_Institutionalizations.resx">
+      <DependentUpon>PU_Institutionalizations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseShell.resx">
+      <DependentUpon>WarehouseShell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADB.resx">
+      <DependentUpon>WA_CERADB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADC.resx">
+      <DependentUpon>WA_CERADC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADD.resx">
+      <DependentUpon>WA_CERADD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADE.resx">
+      <DependentUpon>WA_CERADE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADF.resx">
+      <DependentUpon>WA_CERADF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADG1.resx">
+      <DependentUpon>WA_CERADG1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADG2.resx">
+      <DependentUpon>WA_CERADG2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_CERADH.resx">
+      <DependentUpon>WA_CERADH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_AutopsyDissectionMap.resx">
+      <DependentUpon>WA_AutopsyDissectionMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_PlaqueCounts.resx">
+      <DependentUpon>WA_PlaqueCounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Institutionalizations.resx">
+      <DependentUpon>WA_Institutionalizations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_SubjectSelect.resx">
+      <DependentUpon>WA_SubjectSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueDistributions.resx">
+      <DependentUpon>WA_TissueDistributions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueDistributions_Details.resx">
+      <DependentUpon>WA_TissueDistributions_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueInProcess.resx">
+      <DependentUpon>WA_TissueInProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueSplash.resx">
+      <DependentUpon>WA_TissueSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueRequest.resx">
+      <DependentUpon>WA_TissueRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueTasker.resx">
+      <DependentUpon>WA_TissueTasker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_TissueTaskerReport.resx">
+      <DependentUpon>WA_TissueTaskerReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WA_Welcome.resx">
+      <DependentUpon>WA_Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\modelViewMedications.xml" />
+    <EmbeddedResource Include="Resources\modelViewADCRSubjectSelect.xml" />
+    <EmbeddedResource Include="Resources\modelViewMicroscopicImages.xml" />
+    <None Include="FodyWeavers.xml" />
+    <EmbeddedResource Include="Resources\modelView_Specimen_Shipped_Detailed.xml" />
+    <EmbeddedResource Include="Resources\modelViewPreEnrollmentsReport.xml" />
+    <EmbeddedResource Include="Resources\modelNeuropathRequestsReport.xml" />
+    <EmbeddedResource Include="Resources\modelViewSubjectSelect.xml" />
+    <EmbeddedResource Include="Resources\modelViewDiagnoses.xml" />
+    <EmbeddedResource Include="Resources\modelDonationReferrals.xml" />
+    <EmbeddedResource Include="Resources\modelExistingRecordsReport.xml" />
+    <EmbeddedResource Include="Resources\modelLabs.xml" />
+    <EmbeddedResource Include="Resources\modelDNA_RNA_Volume.xml" />
+    <EmbeddedResource Include="Resources\modelSpecimen_OnHand_Counts.xml" />
+    <EmbeddedResource Include="Resources\modelSpecimen_RNA.xml" />
+    <EmbeddedResource Include="Resources\modelSpecimen_DNA.xml" />
+    <None Include="bin\Release\Korzh.EasyQuery.Db.NET40.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Release\Korzh.EasyQuery.NET40.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Release\Korzh.EasyQuery.WinControls.NET40.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="downloader.aspx" />
+    <Content Include="favicon.ico" />
+    <EmbeddedResource Include="Resources\modelSpecimen_OnHand.xml" />
+    <None Include="packages.config" />
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('..\packages\Fody.4.2.1\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.4.2.1\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.2.1\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

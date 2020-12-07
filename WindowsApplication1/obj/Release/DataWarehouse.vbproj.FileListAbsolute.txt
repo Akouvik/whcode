@@ -1,0 +1,358 @@
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbproj.ResolveComReference.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_EditUserInfo.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.JoshTest.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Alz_Acceptance.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Covid_Acceptance.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequest.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequestAddSourceOrCategory.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequestItem.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_Consume.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_Edit.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.Head_SubjectSelect.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.Loading.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddBlankDoc.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddDx.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMedication.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMedRecordScan.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMiscSubjectFile.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_BarcodeGenerator.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_CERAD_Stains.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_ExistingDxSelect.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Labs_Add.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Labs_SuggestNew.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_MedicationSuggestNew.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_NeuropathRequest.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_NoKReconcile.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_NPSumExistingDxSelect.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_NP_FullClinicalNeuropath.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_NP_SummaryOfFindings.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PHIPassword.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PostLockChangeNote.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_PreEnrollmentDetail.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_ReleaseOfMedicalRecords.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_SaveWork.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_SliceViewer.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_SmokingHistory.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_AddNewSpecimen.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_MoveBox.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Subject_RelWithSimDx.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_SuggestNewInstitution.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueProjectsWOTaskers.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequestAssociatedTissue.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequest_SelectBrainRegion.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequest_SelectPreparation.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Vitals.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_TaskerProgressReport.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_UserManagement.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyFaceSheet.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_BlankForms.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG_Screen.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADIJ.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_Addendum.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_Header.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ClinicalSummary.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_DNA_RNA_Volume.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_DonationReferrals.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ExistingRecordsReport.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ExistingSubjectRecords.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_External_Reporting_Exports.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Institutions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_InstitutionSuggestions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_MicroscopicImages.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_DonationReferralDetail.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_MiscSubjectFiles.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_MRI_Tracking.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NBB_QTR_Admin.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NeuropathRequests.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Neuropath_Requests_Report.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NoK.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D1.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D2.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D3.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D4.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_AD8.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CDR.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CDR_INF.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CVD.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead1.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead2.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead3.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead4.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dementia1.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dementia2.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Demographics.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Depression.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Diagnoses.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Hachinski.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Header.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Hypoxia.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Informants.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_MCIRS.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Medications.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Parkinsonism.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NP_Progress.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Vitals_And_Labs.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollments.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollments_Detail.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollment_Anniversary.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PurchaseRequests.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ReportsSplash.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ShortInitialSummary.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_SlideScanBarcodeFile.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_SpecimenOnHand.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_SpecimenOnHand_Counts.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Specimen_DNA.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Specimen_RNA.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Demographics.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TangleCounts.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_ConsenusDx.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NPSummary.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_GenderHistoryAdd.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_Institutionalizations.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WarehouseShell.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.LoginForm.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.Resources.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADB.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADC.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADD.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADE.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADF.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG1.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG2.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADH.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyDissectionMap.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_PlaqueCounts.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Institutionalizations.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_SubjectSelect.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueDistributions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueDistributions_Details.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueInProcess.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueSplash.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueRequest.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueTasker.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueTaskerReport.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_Welcome.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbproj.GenerateResource.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbproj.CoreCompileInputs.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.Db.NET40.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.NET40.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.WinControls.NET40.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.exe.config
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.exe.manifest
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.application
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.exe
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.pdb
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\DataWarehouse.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Costura.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\EntityFramework.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\itextsharp.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Costura.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\EntityFramework.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\itextsharp.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\bin\Release\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbproj.Fody.CopyLocal.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.TrustInfo.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.exe.manifest
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.application
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbproj.CopyComplete
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.exe
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.pdb
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.vbprojAssemblyReference.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddNewRole.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_AddPermissions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_ConvertICD9To10.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.PU_EditRoles.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.pu_FormPermissions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_ARTAG.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_FormPermissions.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_NP_BrainRegionMap.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyBlockSampling.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.Db.NET40.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.NET40.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\bin\Release\Korzh.EasyQuery.WinControls.NET40.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.exe.config
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.exe.manifest
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.application
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.exe
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.pdb
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\DataWarehouse.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Costura.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\EntityFramework.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\itextsharp.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Costura.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\EntityFramework.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\itextsharp.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Release\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbprojAssemblyReference.cache
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbproj.ResolveComReference.cache
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddNewRole.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddPermissions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_ConvertICD9To10.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_EditRoles.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_EditUserInfo.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.JoshTest.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Alz_Acceptance.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Covid_Acceptance.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.pu_FormPermissions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequest.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequestAddSourceOrCategory.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PurchaseRequestItem.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_Consume.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_Edit.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.Head_SubjectSelect.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.Loading.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddBlankDoc.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddDx.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMedication.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMedRecordScan.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_AddMiscSubjectFile.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_BarcodeGenerator.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_CERAD_Stains.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_ExistingDxSelect.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Labs_Add.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Labs_SuggestNew.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_MedicationSuggestNew.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_NeuropathRequest.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_NoKReconcile.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_NPSumExistingDxSelect.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_NP_FullClinicalNeuropath.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_NP_SummaryOfFindings.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PHIPassword.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PostLockChangeNote.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_PreEnrollmentDetail.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_ReleaseOfMedicalRecords.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_SaveWork.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_SliceViewer.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_SmokingHistory.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_AddNewSpecimen.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Specimen_MoveBox.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Subject_RelWithSimDx.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_SuggestNewInstitution.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueProjectsWOTaskers.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequestAssociatedTissue.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequest_SelectBrainRegion.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_TissueRequest_SelectPreparation.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Vitals.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_TaskerProgressReport.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyBlockSampling.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_ARTAG.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_FormPermissions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NP_BrainRegionMap.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_UserManagement.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyFaceSheet.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_BlankForms.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG_Screen.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADIJ.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_Addendum.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERAD_Header.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ClinicalSummary.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_DNA_RNA_Volume.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_DonationReferrals.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ExistingRecordsReport.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ExistingSubjectRecords.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_External_Reporting_Exports.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Institutions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_InstitutionSuggestions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_MicroscopicImages.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_DonationReferralDetail.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_MiscSubjectFiles.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_MRI_Tracking.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NBB_QTR_Admin.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NeuropathRequests.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Neuropath_Requests_Report.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NoK.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D1.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D2.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D3.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_3D4.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_AD8.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CDR.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CDR_INF.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_CVD.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead1.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead2.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead3.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dead4.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dementia1.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Dementia2.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Demographics.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Depression.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Diagnoses.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Hachinski.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Header.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Hypoxia.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Informants.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_MCIRS.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Medications.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Parkinsonism.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NP_Progress.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PMCR_Vitals_And_Labs.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollments.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollments_Detail.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PreEnrollment_Anniversary.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PurchaseRequests.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ReportsSplash.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ShortInitialSummary.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_SlideScanBarcodeFile.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_SpecimenOnHand.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_SpecimenOnHand_Counts.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Specimen_DNA.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Specimen_RNA.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Demographics.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TangleCounts.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_ConsenusDx.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_NPSummary.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_GenderHistoryAdd.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.PU_Institutionalizations.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WarehouseShell.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.LoginForm.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.Resources.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADB.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADC.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADD.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADE.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADF.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG1.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADG2.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_CERADH.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_AutopsyDissectionMap.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_PlaqueCounts.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Institutionalizations.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_SubjectSelect.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueDistributions.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueDistributions_Details.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueInProcess.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueSplash.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueRequest.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueTasker.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_TissueTaskerReport.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.WA_Welcome.resources
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbproj.GenerateResource.cache
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbproj.CoreCompileInputs.cache
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbproj.Fody.CopyLocal.cache
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.TrustInfo.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.exe.manifest
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.application
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.vbproj.CopyComplete
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.exe
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.xml
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\obj\Release\DataWarehouse.pdb

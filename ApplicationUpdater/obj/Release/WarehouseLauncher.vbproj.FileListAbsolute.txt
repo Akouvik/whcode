@@ -1,0 +1,12 @@
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\bin\Release\WarehouseLauncher.exe.config
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\bin\Release\WarehouseLauncher.exe
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\bin\Release\WarehouseLauncher.pdb
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\bin\Release\WarehouseLauncher.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.Resources.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.UserInterface.resources
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.vbproj.GenerateResource.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.vbproj.CoreCompileInputs.cache
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.exe
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.xml
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.pdb
+C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Release\WarehouseLauncher.vbprojAssemblyReference.cache
