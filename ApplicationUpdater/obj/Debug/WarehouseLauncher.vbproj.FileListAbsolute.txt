@@ -10,3 +10,15 @@ C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdat
 C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Debug\WarehouseLauncher.exe
 C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Debug\WarehouseLauncher.xml
 C:\Users\akouvi\Source\Workspaces\Data Warehouse\Data Warehouse\ApplicationUpdater\obj\Debug\WarehouseLauncher.pdb
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Debug\WarehouseLauncher.exe.config
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Debug\WarehouseLauncher.exe
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Debug\WarehouseLauncher.pdb
+C:\Users\akouvi\Desktop\tfstogit\WindowsApplication1\bin\Debug\WarehouseLauncher.xml
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.vbprojAssemblyReference.cache
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.Resources.resources
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.UserInterface.resources
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.vbproj.GenerateResource.cache
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.vbproj.CoreCompileInputs.cache
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.exe
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.xml
+C:\Users\akouvi\Desktop\tfstogit\ApplicationUpdater\obj\Debug\WarehouseLauncher.pdb
