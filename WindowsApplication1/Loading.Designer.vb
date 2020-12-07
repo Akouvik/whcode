@@ -54,7 +54,7 @@ Partial Class Loading
         Me.Button_1.Name = "Button_1"
         Me.Button_1.Size = New System.Drawing.Size(75, 23)
         Me.Button_1.TabIndex = 2
-        Me.Button_1.Text = "Josh Proof"
+        Me.Button_1.Text = "Akouvi proof"
         Me.Button_1.UseVisualStyleBackColor = True
         '
         'Loading
