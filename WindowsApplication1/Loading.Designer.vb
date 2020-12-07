@@ -24,6 +24,7 @@ Partial Class Loading
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button_1 = New DataWarehouse.Button_()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,6 +48,15 @@ Partial Class Loading
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Requested form is loading..."
         '
+        'Button_1
+        '
+        Me.Button_1.Location = New System.Drawing.Point(253, 44)
+        Me.Button_1.Name = "Button_1"
+        Me.Button_1.Size = New System.Drawing.Size(75, 23)
+        Me.Button_1.TabIndex = 2
+        Me.Button_1.Text = "Josh Proof"
+        Me.Button_1.UseVisualStyleBackColor = True
+        '
         'Loading
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -54,6 +64,7 @@ Partial Class Loading
         Me.BackColor = System.Drawing.Color.Tan
         Me.ClientSize = New System.Drawing.Size(337, 139)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button_1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -69,4 +80,5 @@ Partial Class Loading
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button_1 As Button_
 End Class
