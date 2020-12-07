@@ -28,7 +28,7 @@
         mySub()
     End Sub
 
-    Private Sub Button_2_Click(sender As Object, e As EventArgs) Handles Button_2.Click
+    Private Sub Button_2_Click(sender As Object, e As EventArgs) 
 
     End Sub
 End Class
